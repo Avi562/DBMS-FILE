@@ -1,0 +1,7 @@
+SHOW TABLES;
+
+DELETE FROM student
+WHERE PRN = 25;
+
+ALTER TABLE student ADD age INT;
+ALTER TABLE student DROP COLUMN age;
